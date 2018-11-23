@@ -28,6 +28,13 @@ html{
 /*HEADINGS*/
 /*---------------------------------------------------*/
 
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
 h1{
 margin:0;
 color:#fff;
@@ -38,6 +45,15 @@ word-spacing: 4px;
 margin-top:0px;
 margin-bottom:20px;
 }
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
 
 /*-------------BUTTONS------------------*/
 .btn:link,
@@ -187,3 +203,11 @@ header{
     transform:scale(1);
     opacity:0.95;
 }
+
+
+/*---------------------------------------------------*/
+/*HOW IT WORKS*/
+/*---------------------------------------------------*/
+
+
+
